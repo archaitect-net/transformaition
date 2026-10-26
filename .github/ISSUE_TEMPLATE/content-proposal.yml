@@ -1,0 +1,45 @@
+name: Content proposal
+description: Propose a new page, section, assessment, toolkit or tool guide
+labels: ["proposal"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed page or change
+      placeholder: e.g. Tool guide for <product>, or a new page on AI in procurement
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Pathways
+        - Foundations
+        - Lifecycle
+        - Governance
+        - Tools and tool guides
+        - Measurement
+        - Assessments
+        - Toolkits
+        - Videos
+        - Resources
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What need does it meet, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Key sources you expect to draw on
+  - type: checkboxes
+    id: coi
+    attributes:
+      label: Conflicts of interest
+      options:
+        - label: I have no commercial interest in any product this would cover, or I have described it above
+          required: true

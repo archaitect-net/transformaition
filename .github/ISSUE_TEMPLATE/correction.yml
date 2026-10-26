@@ -1,0 +1,32 @@
+name: Correction or stale content
+description: Report something inaccurate, out of date or broken
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: e.g. docs/governance/regulation-overview.md
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source for the correct information
+      description: A link to legislation, a regulator, a standard, official documentation or published research.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Factual error
+        - Out of date (stale-content)
+        - Broken link
+        - Neutrality concern
+        - Other

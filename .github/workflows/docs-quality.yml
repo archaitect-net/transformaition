@@ -1,0 +1,44 @@
+name: Docs quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly link check, Monday 06:17 UTC, to catch link rot in cited sources
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: "**/*.md"
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --accept 200,206,403,429
+            --exclude-path .github
+            "./**/*.md"
+          fail: ${{ github.event_name != 'schedule' }}
+
+  review-dates:
+    name: Flag stale pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Report pages past their review window
+        run: python3 scripts/check_review_dates.py

@@ -1,0 +1,10 @@
+config:
+  default: true
+  MD013: false        # line length: prose is not wrapped
+  MD024:
+    siblings_only: true
+  MD033: false        # allow inline HTML (e.g. <details>)
+  MD036: false        # emphasis used as labels in templates
+  MD041: false        # templates may start with front matter or notes
+ignores:
+  - "node_modules/**"
