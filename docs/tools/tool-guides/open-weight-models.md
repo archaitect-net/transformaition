@@ -183,7 +183,7 @@ Public leaderboards do not tell you how a model performs on your tasks, in your 
 ## Official documentation links
 
 - [NCSC: Guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development)
-- [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/)
+- [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)
 - Each model's official licence and model card, from the publisher's own repository.
 - Each serving project's official documentation and security advisories.
 
@@ -204,4 +204,4 @@ Public leaderboards do not tell you how a model performs on your tasks, in your 
 ## Sources
 
 1. National Cyber Security Centre (UK), *Guidelines for secure AI system development*, version 1.0, 27 November 2023. https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development
-2. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2025*. https://genai.owasp.org/llm-top-10/
+2. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2026*. https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/

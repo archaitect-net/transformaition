@@ -38,12 +38,14 @@ A risk appetite statement for AI does not need to be long. A useful one separate
 ## Questions you should be asking
 
 **Of your leadership team**
+
 - Which two or three business outcomes should AI help with, and how will we know if it has?
 - What are we not prepared to use AI for, and why?
 - Who is accountable for AI governance, and do they have the authority and time?
 - What are staff already using, and what data is going into it?
 
 **Of proposals and business cases**
+
 - Is the expected benefit based on evidence from comparable tasks, or on vendor claims or headline figures?
 - What is the baseline, and how will we estimate what would have happened anyway?
 - What are the total costs, including integration, training, governance and staff time, not just licences?
@@ -51,11 +53,13 @@ A risk appetite statement for AI does not need to be long. A useful one separate
 - What would make us stop?
 
 **Of suppliers**
+
 - How is our data used, stored and retained, and is it used to train models?
 - What usage, audit and outcome data can you give us?
 - What happens to price and terms at renewal, and how easily can we leave?
 
 **Of risk, legal and compliance**
+
 - Which regulations apply to our planned uses, and in which jurisdictions?
 - Which uses would need a DPIA or other formal assessment?
 

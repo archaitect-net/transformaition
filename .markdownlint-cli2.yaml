@@ -6,5 +6,9 @@ config:
   MD033: false        # allow inline HTML (e.g. <details>)
   MD036: false        # emphasis used as labels in templates
   MD041: false        # templates may start with front matter or notes
+  MD034: false        # Sources lists use plain URLs by design (see CONTRIBUTING)
+  MD060: false        # compact |---| table separators are the house style
+  MD052: false        # numbered citation markers like [1] are not reference links
+  MD028: false        # adjacent but separate callout blockquotes are intentional
 ignores:
   - "node_modules/**"

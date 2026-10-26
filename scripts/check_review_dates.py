@@ -33,7 +33,7 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         match = PATTERN.search(text)
         if not match:
-            if rel.startswith("docs/"):
+            if rel.startswith("docs/") and not path.name.startswith("_"):
                 missing.append(rel)
             continue
         limit = 6 if "/tool-guides/" in rel and not path.name.startswith("_") else 12

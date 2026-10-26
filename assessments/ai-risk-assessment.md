@@ -287,6 +287,6 @@ Real legal cases illustrate the accuracy and accountability risks. In *Mata v. A
 3. Regulation (EU) 2026/1744 (Digital Omnibus on AI), in force 27 July 2026. https://eur-lex.europa.eu/eli/reg/2026/1744/oj ; summary: National Law Review, *EU Digital Omnibus on AI Enters into Force*, 2026. https://natlawreview.com/article/eu-digital-omnibus-ai-enters-force
 4. NIST, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1, January 2023. https://doi.org/10.6028/NIST.AI.100-1
 5. NIST, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*, NIST AI 600-1, July 2024. https://doi.org/10.6028/NIST.AI.600-1
-6. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2025*. https://genai.owasp.org/llm-top-10/
+6. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2026*. https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
 7. LawSites, *Court imposes sanctions on lawyers who filed bogus cases after relying on ChatGPT for legal research*, June 2023 (*Mata v. Avianca*, No. 22-cv-01461, S.D.N.Y.). https://www.lawnext.com/2023/06/court-imposes-sanctions-on-lawyers-who-filed-bogus-cases-after-relying-on-chatgpt-for-legal-research.html
 8. McCarthy Tétrault, *Moffatt v. Air Canada: misrepresentation by an AI chatbot*, February 2024 (2024 BCCRT 149). https://www.mccarthy.ca/en/insights/blogs/techlex/moffatt-v-air-canada-misrepresentation-ai-chatbot

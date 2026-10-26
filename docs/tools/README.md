@@ -7,7 +7,7 @@ This section is in two parts, in a deliberate order. First comes **neutral selec
 
 ## How this section works
 
-```
+```text
  Your use cases and requirements
               |
               v

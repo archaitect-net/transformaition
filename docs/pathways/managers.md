@@ -39,22 +39,25 @@ Managers are where AI adoption succeeds or stalls. Leaders can buy tools and set
 | **AI as tutor or explainer** | AI helps a person understand something | Onboarding, unfamiliar topics |
 | **No AI** | Task stays as it is | Tasks failing the fit test, or decisions about individuals without specific approval |
 
-4. **Look at the whole flow.** If drafting gets faster, does review become the bottleneck? Do downstream teams need to change?
-5. **Pilot with the team**, measure against a baseline, and adjust. See [pilot](../lifecycle/04-pilot.md).
+1. **Look at the whole flow.** If drafting gets faster, does review become the bottleneck? Do downstream teams need to change?
+2. **Pilot with the team**, measure against a baseline, and adjust. See [pilot](../lifecycle/04-pilot.md).
 
 ## Questions you should be asking
 
 **About your team's work**
+
 - Which tasks take the most time, and which of those pass the fit test?
 - Where would an undetected AI error cause real harm?
 - What is already being done with AI, informally?
 
 **About your people**
+
 - Who is confident with these tools, and who is anxious or sceptical? Why?
 - Do junior staff still get the practice they need to build expertise?
 - What do people fear: job loss, monitoring, being judged for using or not using AI?
 
 **About quality and performance**
+
 - How will we check AI-assisted work, and who is accountable for it?
 - What evidence would justify changing workload expectations or targets?
 - How will time saved be used?

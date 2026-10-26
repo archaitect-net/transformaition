@@ -29,7 +29,7 @@ Or jump straight to the pathway for your role:
 
 ## What's in the guide
 
-```
+```text
 transformaition/
 ├── START-HERE.md            Choose your route
 ├── docs/

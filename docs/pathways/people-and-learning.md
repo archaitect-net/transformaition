@@ -11,7 +11,7 @@ AI tools change what people do at work, what skills they need, and how they feel
 - **Learning can be undermined.** In a field experiment with high-school students, unrestricted use of a chat assistant during practice improved practice scores but lowered later exam performance by 17% compared with students who had no access; a tutor-style design with safeguards largely avoided this [3]. The implications for workplace onboarding and early-career development deserve attention.
 - **Confidence affects critical thinking.** A survey of 319 knowledge workers found that higher confidence in AI was associated with less critical thinking, and higher self-confidence with more [4].
 - **Entry-level roles may be most affected.** Analysis of US payroll data found a 13% relative decline in employment for 22 to 25 year olds in the most AI-exposed occupations, concentrated where AI automates rather than augments work [5]. This is a single observational study and its causal interpretation is debated, but it is relevant to early-career pipelines and workforce planning.
-- **AI literacy may be a legal expectation.** Under Article 4 of the EU AI Act, providers and deployers of AI systems have been required since 2 February 2025 to take measures to ensure a sufficient level of AI literacy among staff, taking account of their knowledge, experience and the context of use [6]. See [regulation overview](../governance/regulation-overview.md).
+- **AI literacy may be a legal expectation.** Under Article 4 of the EU AI Act, providers and deployers of AI systems have had an AI literacy obligation since 2 February 2025 [6]. Amendments in force from 27 July 2026 reworded it as a duty to take measures to support staff AI literacy, rather than to ensure a set level for each person; the [regulation overview](../governance/regulation-overview.md#ai-literacy-article-4) has the current position.
 - **Employees want to be consulted.** The UK's Acas advises employers to discuss AI plans early with staff and their representatives, consult on its introduction, and develop clear policies, noting that requiring some roles to use AI could amount to a change in terms and conditions [7].
 
 ## Your key responsibilities and decisions
@@ -29,6 +29,7 @@ Define what different groups need to know. An illustrative structure:
 | **Leaders** | Strategy, risk appetite, accountability, evidence |
 
 Design principles (practitioner consensus, consistent with the evidence above):
+
 - **Practice on real tasks** rather than generic demonstrations.
 - **Teach verification as a core skill**, not an afterthought.
 - **Protect skill development.** For new starters and early-career staff, design tasks so AI supports learning (explaining, giving feedback) rather than replacing the practice they need.
@@ -69,6 +70,7 @@ Uses of AI in recruitment, performance management, promotion, allocation of work
 ### Change management
 
 Use the [communication plan template](../../toolkits/communication-plan-template.md). Effective communication about AI tends to:
+
 - Be specific about what is changing, for whom, and when.
 - Acknowledge uncertainty honestly.
 - Address job security directly rather than avoiding it.

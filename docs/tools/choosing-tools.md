@@ -70,6 +70,7 @@ These are illustrations, not recommendations. Set your own.
 ### Questions to ask for each criterion
 
 **Data protection and residency**
+
 - On the exact plan and contract we will sign, is our content used to train or improve models? Is that the default, and can users change it?
 - How long are prompts, outputs and files retained, and who can configure that? What happens on deletion?
 - Where is data processed and stored? Can processing move to other regions during high demand?
@@ -77,12 +78,14 @@ These are illustrations, not recommendations. Set your own.
 - Which sub-processors, including model providers, are involved?
 
 **Security and admin controls**
+
 - Which independent reports and certifications cover *this* product, not just the vendor's other services?
 - Can we restrict which connectors, plug-ins, agents and models users can access?
 - Are interaction logs available for audit, eDiscovery and our security monitoring tools?
 - What prevents the tool from surfacing content users can technically access but should not see?
 
 **Exit and portability**
+
 - In what formats can we export our data, configurations and custom agents?
 - How quickly and verifiably is data deleted when we leave?
 - How much of our investment (prompts, agents, integrations) would carry over to an alternative?
@@ -118,7 +121,7 @@ Vendor demonstrations show best cases. A fair evaluation tests every shortlisted
 
 Most organisations use a mix. This decision tree helps for each use case.
 
-```
+```text
 Is there an off-the-shelf tool that meets all must-haves for this use case?
 ├── Yes ─> Does it fit with configuration only (settings, connectors, prompts, simple agents)?
 │         ├── Yes ─> CONFIGURE an existing or new product
@@ -188,4 +191,4 @@ If you have limited time and no dedicated IT or procurement team:
 
 1. ISO, *ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system*, 2023. https://www.iso.org/standard/42001
 2. NIST, *AI Risk Management Framework* (AI RMF 1.0, January 2023; Generative AI Profile NIST-AI-600-1, July 2024). https://www.nist.gov/itl/ai-risk-management-framework
-3. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2025*. https://genai.owasp.org/llm-top-10/
+3. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2026*. https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/

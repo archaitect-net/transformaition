@@ -99,8 +99,8 @@ A detailed responsibility matrix is maintained in [RACI](raci-template.md).
 | **High** | Decisions about individuals; autonomous actions; special category data; regulated high-risk category; serious potential harm | [AI governance group]; DPIA where required; legal review |
 | **Prohibited** | Unlawful or outside risk appetite | Not permitted |
 
-3. Approval may be conditional (for example, limited users, additional monitoring, time limit).
-4. Use cases must be re-assessed when the model, data, purpose, users or applicable law change materially.
+1. Approval may be conditional (for example, limited users, additional monitoring, time limit).
+2. Use cases must be re-assessed when the model, data, purpose, users or applicable law change materially.
 
 ## 7. Lifecycle requirements
 

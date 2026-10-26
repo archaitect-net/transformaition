@@ -56,7 +56,7 @@ Before relying on any figure, ask five questions.
 
 **Evidence label:** Moderate. Published in *Science* (2023).
 
-### Consulting and the "jagged frontier": Dell'Acqua et al.
+### Consulting and the "jagged frontier": Dell'Acqua et al
 
 **What they did.** A preregistered field experiment with 758 Boston Consulting Group consultants, about 7% of the firm's individual-contributor consultants. Participants were randomly assigned to work with or without GPT-4 on realistic consulting tasks. Some tasks were chosen to sit inside the AI's capability "frontier"; one was designed to sit just outside it [3].
 
@@ -78,7 +78,7 @@ The authors describe the frontier as "jagged": tasks of apparently similar diffi
 
 **Evidence label:** Moderate. NBER Working Paper 33641 (2025).
 
-### Small businesses: Otis et al.
+### Small businesses: Otis et al
 
 **What they did.** A five-month RCT with 640 entrepreneurs in Kenya, who received either a standard business guide or access to a GPT-4-based business mentor via WhatsApp [5].
 
@@ -88,7 +88,7 @@ The authors describe the frontier as "jagged": tasks of apparently similar diffi
 
 **Evidence label:** Moderate.
 
-### Education gaps: Cruces et al.
+### Education gaps: Cruces et al
 
 **What they did.** A randomised online experiment with 1,174 adults aged 25 to 45 completing an incentivised, workplace-style business problem-solving task with or without a generative AI assistant, followed by a task without AI [6].
 

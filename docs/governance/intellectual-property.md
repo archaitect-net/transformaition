@@ -28,6 +28,7 @@ Whether AI-generated output is protected by copyright, and who owns it, varies b
 | European Union | Copyright protection generally requires the author's own intellectual creation, which implies human creative choices. There is no specific EU rule for AI-generated outputs |
 
 **Practical implications:**
+
 - Do not assume you own exclusive rights in purely AI-generated content. Where ownership matters (brand assets, products, publications), ensure meaningful human creative contribution and document it.
 - Vendor terms usually assign or disclaim rights in outputs between you and the vendor; they cannot create copyright where the law does not recognise it.
 - For contracts with clients, be clear about what deliverables may include AI-generated material and what rights you can grant.
@@ -37,6 +38,7 @@ Whether AI-generated output is protected by copyright, and who owns it, varies b
 AI outputs can, in some circumstances, reproduce or closely resemble existing protected material, including text, images, code and trade marks. The likelihood depends on the tool, the prompt and the content type.
 
 **Controls:**
+
 - Do not prompt tools to reproduce or imitate specific copyrighted works, named artists' styles for commercial use, or trade marks, without advice.
 - Review outputs intended for publication or commercial use; use similarity or plagiarism checks where risk is material.
 - Use tools with output filtering for known content where available, recognising it is not complete.
@@ -87,6 +89,7 @@ Confidentiality is usually a bigger day-to-day risk than copyright.
 Coding assistants can produce code that resembles existing open-source code. If that code is subject to a licence (for example, a copyleft licence requiring source disclosure of derivative works, or a licence requiring attribution), using it without complying could breach the licence.
 
 **Considerations:**
+
 - Enable filters that block suggestions matching public code, where your tool offers them, and understand what they do and do not catch.
 - Run software composition analysis and licence scanning on repositories, including AI-generated code.
 - Apply normal code review to AI-generated code: security, quality and provenance.

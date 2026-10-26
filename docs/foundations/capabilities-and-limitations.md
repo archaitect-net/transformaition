@@ -39,6 +39,7 @@ Practitioner consensus and the task-level evidence suggest current tools are gen
 **How common.** It varies widely by tool, task and domain, so beware any single headline rate. One study of general-purpose models answering specific questions about US federal court cases found hallucination rates between 69% and 88% [6]. In England, the High Court addressed the misuse of AI-generated fictitious case citations by lawyers in a 2025 judgment, *Ayinde v London Borough of Haringey* [7].
 
 **Mitigations.**
+
 - Ground the tool in trusted sources (supply the documents, or use retrieval; see [glossary: RAG](glossary.md#r)), and require it to cite them.
 - Check every specific factual claim, citation, figure and quote against the original source before relying on it.
 - Use tools for tasks where you can verify the output more cheaply than producing it yourself.

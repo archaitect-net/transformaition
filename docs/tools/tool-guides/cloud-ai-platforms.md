@@ -209,4 +209,4 @@ Google documents caching, grounding and feature-specific storage behaviour in it
 9. Google Cloud, *Gemini Enterprise Agent Platform and zero data retention*, accessed 2026-10. https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention
 10. AWS re:Post Knowledge Center, *Amazon Bedrock model data use*, accessed 2026-10. https://www.repost.aws/knowledge-center/amazon-bedrock-model-data-use
 11. AWS, *Amazon Bedrock abuse detection*, accessed 2026-10. https://docs.aws.eu/bedrock/latest/userguide/abuse-detection.html
-12. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2025*. https://genai.owasp.org/llm-top-10/
+12. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2026*. https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/

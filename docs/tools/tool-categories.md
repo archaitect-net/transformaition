@@ -29,6 +29,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** SaaS, accessed through browser, desktop and mobile apps. Identity through your identity provider on business tiers. Connectors to other systems are optional and usually admin-controlled.
 
 **Data-flow implications.**
+
 - Prompts, files and connected content are processed in the vendor's cloud. Business and enterprise tiers usually commit not to train on your content by default, but consumer tiers may differ. Confirm which terms apply to the plan you buy.
 - Retention of conversations, and who can set it, varies by plan.
 - Connectors widen what the assistant can see, so they widen the impact of a misconfiguration.
@@ -46,6 +47,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** Enabled within your existing tenant, often per user or per group, managed in the suite's admin centre.
 
 **Data-flow implications.**
+
 - The assistant usually respects existing permissions. That means **existing oversharing becomes more visible**: if a sensitive file is shared too broadly, the assistant can surface it to anyone with access. Permission hygiene is a prerequisite.
 - Existing controls (sensitivity labels, data loss prevention, retention, eDiscovery) may or may not extend to AI interactions; check feature by feature.
 - Data residency commitments for the suite do not automatically cover AI processing. Check the specific terms.
@@ -63,6 +65,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** IDE extensions, command-line tools, and features in code-hosting platforms; some offer cloud-hosted agents that run in vendor-managed environments.
 
 **Data-flow implications.**
+
 - Source code, file contents and sometimes secrets are sent as context. Exclusion features exist in some products but often have documented gaps.
 - Agentic modes can execute commands and modify repositories, so permissions, branch protection and review rules matter as much as data terms.
 - Licence and provenance of generated code is an open issue; some products offer filters or references for suggestions that match public code. See [intellectual property](../governance/intellectual-property.md).
@@ -80,6 +83,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** Low-code builders in SaaS platforms; agent services on cloud platforms; open-source frameworks deployed in your own environment.
 
 **Data-flow implications.**
+
 - The key question shifts from "what can it see?" to "what can it **do**?" Agents act with some identity: a user's delegated permissions, a service account or their own managed identity. Excessive permissions are a primary risk; OWASP lists "excessive agency" in its top 10 risks for LLM applications [1].
 - Prompt injection, where instructions hidden in content the agent reads change its behaviour, is a particular risk for agents that read external content [1].
 - Logs of actions, approvals and rollbacks become essential controls.
@@ -97,6 +101,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** Within your cloud account or a vendor developer account, governed by your identity and access management, networking and logging.
 
 **Data-flow implications.**
+
 - You configure much of the data handling: region and cross-region routing, logging, retention modes, encryption keys and private networking. Defaults vary by platform, model and feature, and some features store data even when the base service does not.
 - Abuse-monitoring retention and human review terms differ by provider and model; some offer modified or zero retention on approval.
 - You carry responsibility for the application you build, including access control, output handling and monitoring.
@@ -114,6 +119,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** On-premises GPU servers, private cloud instances, managed hosting of open models on cloud platforms, or local machines for small models.
 
 **Data-flow implications.**
+
 - Data need not leave your environment, but **every control is yours**: patching, access, logging, safety filtering and evaluation.
 - Model files are a supply-chain risk; provenance and integrity checks matter.
 - Licence terms may restrict use, scale or redistribution.
@@ -131,6 +137,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** SaaS, integrated with sector systems (case management, practice management, electronic health records, CRM, HR systems).
 
 **Data-flow implications.**
+
 - Often handle sensitive or regulated data (health, legal privilege, employment). Sector rules may apply in addition to general data protection law.
 - There are usually **two layers** of supplier: the tool vendor and the model provider behind it. Ask which model providers are used, in which regions, and on what terms.
 - Some uses may be high-risk under regulation, for example AI used in recruitment or access to essential services. See [regulation overview](../governance/regulation-overview.md).
@@ -148,6 +155,7 @@ AI tools fall into a small number of categories that differ in who uses them, wh
 **Typical deployment.** Toggled in the product's admin settings, sometimes on by default after an update.
 
 **Data-flow implications.**
+
 - Features may introduce **new sub-processors** (often a model provider) and new data flows under terms that differ from your original contract. Check update notices and sub-processor lists.
 - Some features are enabled by default. Inventory what is active.
 - Data may be used for product improvement unless you opt out; check.
@@ -188,4 +196,4 @@ Most organisations end up with more than one category. These questions help deci
 
 ## Sources
 
-1. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2025*. https://genai.owasp.org/llm-top-10/
+1. OWASP GenAI Security Project, *OWASP Top 10 for LLM Applications 2026*. https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/

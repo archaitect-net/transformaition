@@ -44,6 +44,7 @@ Older material may refer to the 2023 version 1.1 list (with entries such as Inse
 **Why it matters for adopters.** AI assistants that read email, browse the web or search shared files can be exposed to indirect injection by anyone who can get content in front of them. Impact grows with the tool's permissions.
 
 **Controls:**
+
 - Limit what the AI can do (see excessive agency) so that a successful injection has limited impact.
 - Require human confirmation for consequential actions (sending, deleting, paying, sharing externally).
 - Restrict connectors and web access to what the use case needs.
@@ -56,6 +57,7 @@ Older material may refer to the 2023 version 1.1 list (with entries such as Inse
 **What it is.** The AI reveals data the user should not see: through retrieval over over-shared content, through memorised data, or through exposure of hidden context such as system prompts, policies and tool definitions. Data can also leak *out* when staff enter confidential information into unapproved tools.
 
 **Controls:**
+
 - Review and fix access permissions before enabling AI search across repositories.
 - Apply sensitivity labels and data loss prevention to AI interactions where supported.
 - Use approved tools with contractual data protections; block or restrict unapproved services where risk warrants.
@@ -68,6 +70,7 @@ Older material may refer to the 2023 version 1.1 list (with entries such as Inse
 **What it is.** AI output is passed to other systems (browsers, shells, databases, APIs) without validation, enabling cross-site scripting, code execution, or injection into downstream systems.
 
 **Controls:**
+
 - Treat model output as untrusted user input: validate, encode and sanitise.
 - Never execute generated code or queries automatically in production without review and sandboxing.
 - Apply least privilege to any system that acts on AI output.
@@ -78,6 +81,7 @@ Older material may refer to the 2023 version 1.1 list (with entries such as Inse
 **What it is.** Risks from third-party models, datasets, plug-ins, libraries and model hubs: compromised or backdoored models, unsafe serialisation formats, poisoned training or fine-tuning data, and manipulated content in vector stores used for retrieval.
 
 **Controls:**
+
 - Inventory AI components (models, versions, providers, plug-ins, datasets).
 - Obtain models from trusted sources; verify integrity; prefer safe serialisation formats.
 - Assess vendors' supply chain practices in [due diligence](../../assessments/vendor-due-diligence.md).
@@ -89,6 +93,7 @@ Older material may refer to the 2023 version 1.1 list (with entries such as Inse
 **What it is.** An AI system, especially an agent, has more functionality, permissions or autonomy than needed, so errors or manipulation lead to harmful actions. OWASP moved this up to third place in 2026, reflecting incidents involving agentic systems [2].
 
 **Controls:**
+
 - Grant the minimum tools and permissions necessary; prefer read-only where possible.
 - Use separate, scoped identities for agents rather than broad user or admin credentials.
 - Require human approval for high-impact actions.
