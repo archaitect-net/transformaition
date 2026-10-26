@@ -27,7 +27,7 @@ This page lists the main standards, frameworks, legislation and official guidanc
 
 | Name | Publisher | What it is | Typically useful for | Access |
 |---|---|---|---|---|
-| [OWASP Top 10 for LLM Applications (2025)](https://genai.owasp.org/2024/11/17/owasp-reveals-updated-2025-top-10-risks-for-llms-announces-new-llm-project-sponsorship-program-and-inaugural-sponsors/) | OWASP GenAI Security Project | Community list of the most critical security risks in applications built on large language models | Secure design, code review and testing of LLM applications | Free |
+| [OWASP Top 10 for LLM Applications (2026)](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) | OWASP GenAI Security Project | Community list of the most critical security risks in applications built on large language models. The 2026 edition replaces the 2025 list; see [Security](../docs/governance/security.md) for the mapping. | Secure design, code review and testing of LLM applications | Free |
 | [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications/) | OWASP GenAI Security Project | Companion list for risks specific to autonomous and tool-using AI agents, published December 2025 | Designing and assessing AI agents | Free |
 | [MITRE ATLAS](https://atlas.mitre.org/) | MITRE | Knowledge base of adversary tactics and techniques against AI systems, modelled on ATT&CK | Threat modelling and red-team planning | Free |
 | [Guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) | UK NCSC, US CISA and international partners | Guidance across design, development, deployment and operation | Organisations building or integrating AI systems | Free |
