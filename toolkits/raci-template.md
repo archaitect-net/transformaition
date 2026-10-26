@@ -80,7 +80,7 @@ Where one role is both accountable and does the work, write **A/R**.
 | | Vendor and contract management | | | | C | C | R | C | | C | A | | | | |
 | | Retire a use case | | | I | C | A/R | R | C | C | | C | C | | I | I |
 | **All stages** | Report to board / owners | I | A/R | C | R | | | | | | | | | | |
-| | Raise concerns | | | I | | | | | | | | | | R | R |
+| | Raise concerns | | I | A | | | | | | | | | | R | R |
 
 > **Guidance:** This default reflects common practice. Valid alternatives include making the DPO accountable for the risk assessment in heavily regulated settings, or making IT accountable for vendor due diligence where procurement is light-touch. Whatever you choose, keep exactly one A per row.
 
